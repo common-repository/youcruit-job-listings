@@ -1,0 +1,140 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+div.youcruit-listing div.youcruit-listing-item {
+  position: relative;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  div.youcruit-listing div.youcruit-listing-item:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle {
+    position: relative;
+    padding: 1em 0;
+    border-left: 2px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
+    div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle:hover {
+      padding: 1em;
+      cursor: pointer; }
+      div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle:hover .youcruit-listing-item-title {
+        color: #fe8341; }
+        div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle:hover .youcruit-listing-item-title:after {
+          left: -1em;
+          opacity: 1; }
+      div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle:hover .youcruit-listing-item-location {
+        color: inherit; }
+    div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle .youcruit-listing-item-title {
+      font-size: 1.2em;
+      font-weight: bold;
+      position: relative;
+      margin-right: 12em;
+      -webkit-transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -ms-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out; }
+      div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle .youcruit-listing-item-title:after {
+        position: absolute;
+        top: 50%;
+        left: -2em;
+        width: 0;
+        height: 0;
+        margin-top: -7px;
+        content: ' ';
+        pointer-events: none;
+        opacity: 0;
+        border: solid transparent;
+        border-width: 5px;
+        border-left-color: #fe8341;
+        -webkit-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        -moz-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        -ms-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        -o-transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        transition: all 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55); }
+      @media (max-width: 750px) {
+        div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle .youcruit-listing-item-title {
+          font-size: 1em;
+          margin-right: 0; } }
+    div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle .youcruit-listing-item-location {
+      font-size: .9em;
+      display: inline-block;
+      color: #aaa;
+      -webkit-transition: all 0.4s ease-out;
+      -moz-transition: all 0.4s ease-out;
+      -ms-transition: all 0.4s ease-out;
+      -o-transition: all 0.4s ease-out;
+      transition: all 0.4s ease-out; }
+    div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle .youcruit-listing-item-application-date {
+      font-size: .8em;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      display: inline-block;
+      margin-top: -.8em;
+      margin-left: 1em;
+      color: #aaa;
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out; }
+      @media (max-width: 750px) {
+        div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-toggle .youcruit-listing-item-application-date {
+          font-size: .9em;
+          position: static;
+          display: block;
+          margin: 0; } }
+  div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-content {
+    display: none;
+    border-left: 2px solid #fe8341; }
+    div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-content .youcruit-listing-item-body {
+      font-size: 1em;
+      padding: 1em;
+      white-space: pre-wrap; }
+    div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-content a.youcruit-listing-apply-button,
+    div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-content a.youcruit-listing-apply-button:active,
+    div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-content a.youcruit-listing-apply-button:focus {
+      font-size: 1em;
+      font-weight: bold;
+      display: inline-block;
+      box-sizing: border-box;
+      margin: 1em 1em 2em 1em;
+      padding: 1em 2em;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      background-color: #fe8341;
+      -webkit-transition: background-color 0.3s ease;
+      -moz-transition: background-color 0.3s ease;
+      -ms-transition: background-color 0.3s ease;
+      -o-transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease; }
+      div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-content a.youcruit-listing-apply-button:hover,
+      div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-content a.youcruit-listing-apply-button:active:hover,
+      div.youcruit-listing div.youcruit-listing-item div.youcruit-listing-item-slide-content a.youcruit-listing-apply-button:focus:hover {
+        font-size: 1em;
+        display: inline-block;
+        box-sizing: border-box;
+        margin: 1em 1em 2em 1em;
+        padding: 1em 2em;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        border: none;
+        border-radius: 4px; }
+  div.youcruit-listing div.youcruit-listing-item.youcruit-listing-item-active .youcruit-listing-item-slide-toggle, div.youcruit-listing div.youcruit-listing-item.youcruit-listing-item-active .youcruit-listing-item-slide-toggle:hover {
+    padding: 1em;
+    border-left: 2px solid #fe8341; }
+    div.youcruit-listing div.youcruit-listing-item.youcruit-listing-item-active .youcruit-listing-item-slide-toggle .youcruit-listing-item-title:after, div.youcruit-listing div.youcruit-listing-item.youcruit-listing-item-active .youcruit-listing-item-slide-toggle:hover .youcruit-listing-item-title:after {
+      display: none; }
+
+div.youcruit-listing .youcruit-listing-item-no-positions {
+  font-size: 1em;
+  color: #aaa;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }

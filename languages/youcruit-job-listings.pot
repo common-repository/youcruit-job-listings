@@ -1,0 +1,64 @@
+# Copyright (C) 2017 YouCruitAds
+# This file is distributed under the same license as the YouCruitAds package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YouCruitAds\n"
+"Report-Msgid-Bugs-To: http://www.youcruit.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Patrick Gilmore<p@youcruit.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: src/admin/YouCruitAdsAdmin.php:114
+msgid "YouCruit Ads Settings"
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:121
+msgid "API Key"
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:129
+msgid "Apply before"
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:137
+msgid "Apply here"
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:145
+msgid "No active job postings"
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:153, src/admin/YouCruitAdsAdmin.php:220
+msgid "Accent color"
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:162
+msgid "To use the plugin, simply insert the shorthand [youcruit_ads] into any page or post."
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:179
+msgid "You need the API key to connect this plugin with your YouCruit account. Log in to YouCruit, copy the API key and paste it into this field."
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:180
+msgid "Get YouCruit API key"
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:190
+msgid "Apply before translation"
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:200
+msgid "Apply here translation"
+msgstr ""
+
+#: src/admin/YouCruitAdsAdmin.php:210
+msgid "No positions translation"
+msgstr ""
